@@ -1,0 +1,27 @@
+# =============================================================================
+# ServiceWatch - Root .gitignore
+# =============================================================================
+
+# Backend Build & Output
+backend/target/
+backend/*.log
+backend/.flattened-pom.xml
+
+# Frontend Dependencies & Output
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+
+# Logs and system files
+*.log
+logs/
+.DS_Store
+Thumbs.db
+
+# IDE & Editor
+.idea/
+*.iml
+.vscode/
+*.ipr
+*.iws
